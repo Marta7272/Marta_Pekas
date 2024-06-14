@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+ul {
+			padding:20px; 
+			margin-left:auto; 
+			margin-right:auto;  
+			width: 1000px;
+			} 
+	li {	display:inline; 
+			background-color:#2E1E3B;
+			padding:15px;
+			border: 2px ;
+		
+		}
+	li:active {background-color:;} 
+		
+	li a {	color:#ECF5F2; 
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+		margin:auto;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
+}
+@font-face {
+	font-family:"MartaPekas";
+	src: url("font/MartaPekas.ttf");
+}
+h1{
+	text-align:end;
+	font-family: "MartaPekas";
+	font-size: 100px;
+	padding: 20px;
+	margin-top: 320px;
+	margin-bottom: 2px;
+	width: 40;
+	color: white;
+}
+h2{
+	text-align: end;
+	font-family:Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+	font-size: 30px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 40;
+	color:#D1A8F7;
+}
+h3{
+	text-align:center;
+	font-family: "MartaPekas";
+	font-size: 60px;
+	padding: 20px;
+	margin-top: 1px;
+	margin-bottom: 2px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 40;
+	color: white;
+}
+h4{
+	text-align:end;
+	font-family: "MartaPekas";
+	font-size: 100px;
+	padding: 20px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	width: 40;
+	color: white;
+}
+p {
+	text-align:end;
+	margin: auto;
+	color:black;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin-top: 2px;
+	font-size: 25px;
+	line-height: 40px;
+	padding: 20px;
+	color:#D1A8F7;
+}
+p1 {
+	text-align:center;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin-top: 2px;
+	font-size: 18px;
+	line-height: 40px;
+	padding: 10px;
+	color:#2A1B38;
+	background:#A092B6;
+	background-blend-mode: soft-light;
+}
+.pozadina{
+	background-image: url("4050138.jpg");
+	background-size: cover;
+}
+img{
+	margin: auto;
+	align-content: center;
+	height: 200px;
+	border: groove; 
+	border-color: #D1A8F7;
+	border-image-width: 100px;
+	
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 20px #D1A8F7;
+  padding: 10px;
+}
